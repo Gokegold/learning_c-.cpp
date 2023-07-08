@@ -55,8 +55,7 @@ int main() {
   double z = (x +10) / (3 * y);
   double w = numerator / denominator;
 
-  cout << w;
-  cout << '\n';
-  cout << z;
+  cout << w <<endl
+       << z;
   return 0;
 }
