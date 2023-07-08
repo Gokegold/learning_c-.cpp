@@ -32,10 +32,6 @@ int main() {
   return 0;
 }
 
-#include <iostream>
-
-using namespace std;
-
 int main() {
   double e = 2;
   int a = 1;
@@ -48,5 +44,19 @@ int main() {
   cout << '\n';
   cout << c;
 
+  return 0;
+}
+
+int main() {
+  double x = 10;
+  double y = 5;
+  int numerator = x + 10;
+  int denominator = 3 * y;
+  double z = (x +10) / (3 * y);
+  double w = numerator / denominator;
+
+  cout << w;
+  cout << '\n';
+  cout << z;
   return 0;
 }
