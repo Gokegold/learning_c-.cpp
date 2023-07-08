@@ -29,4 +29,24 @@ int main() {
   b = c;
   cout << a;
   cout << b;
+  return 0;
+}
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  double e = 2;
+  int a = 1;
+  int b = a++; // a will be 1 and the value of b will e incremented by 1
+  int c = ++a; // first a = 1+a and c= 1+a
+
+  cout << a;
+  cout << '\n';
+  cout << b;
+  cout << '\n';
+  cout << c;
+
+  return 0;
 }
